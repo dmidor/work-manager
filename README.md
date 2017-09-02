@@ -1,3 +1,3 @@
 # work-manager
 
-1) fallow by TODO comments
+1) follow by TODO comments
