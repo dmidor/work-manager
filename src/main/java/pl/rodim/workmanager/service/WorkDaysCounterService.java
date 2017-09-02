@@ -7,7 +7,7 @@ import pl.rodim.workmanager.model.WorkingDetails;
 public class WorkDaysCounterService {
 
     public int countDaysOfWork(WorkingDetails workingDetails) {
-        //TODO not yet implemented
+        //TODO not yet implemented and covered by test (TTD technique)
         return 0;
     }
 }
