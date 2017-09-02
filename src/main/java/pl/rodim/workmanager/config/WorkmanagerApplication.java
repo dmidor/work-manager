@@ -1,4 +1,4 @@
-package pl.rodim.workmanager;
+package pl.rodim.workmanager.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
