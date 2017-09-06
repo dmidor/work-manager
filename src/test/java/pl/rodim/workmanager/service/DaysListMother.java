@@ -1,4 +1,4 @@
-package pl.rodim.workmanager;
+package pl.rodim.workmanager.service;
 
 
 import java.time.LocalDate;
