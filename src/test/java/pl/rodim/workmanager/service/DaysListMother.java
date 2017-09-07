@@ -9,7 +9,7 @@ import static java.util.Arrays.asList;
 
 class DaysListMother {
     public static final int ALL_DAYS = 7;
-    public static final LocalDate startDate = LocalDate.of(2017, 01, 01);
+    public static final LocalDate startDate = LocalDate.of(2017, 04, 05);
     public static final int ALL_DAYS_WITHOUT_WEEKEND = 5;
 
     static List<LocalDate> allWeek() {

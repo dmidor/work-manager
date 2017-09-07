@@ -11,11 +11,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringJUnit4ClassRunner.class)
 public class WorkDaysCounterServiceTest {
 
-
     private static final int ALL_WEEK_WITHOUT_FIRST_THREE_DAYS = 4;
     private static final int ONLY_TWO_DAYS_OF_WEEK = 2;
     @InjectMocks
     private WorkDaysCounterService sut;
+
+    @Test
+    public void shouldCountZeroForEmptyObject() throws Exception {
+        WorkingDetails workingDetails = WorkingDetails
+                .builder()
+                .build();
+
+        int daysOfWork = sut.countDaysOfWork(workingDetails);
+        assertThat(daysOfWork).isEqualTo(0);
+    }
 
     @Test
     public void shouldCountAllDaysOfWeek() throws Exception {
